@@ -19,7 +19,13 @@ if %BUILD_OK%==false (
 )
 
 call check.bat
-call email.bat
+
+if %CHECK_OK%==false (
+  call checkfailed.bat
+  goto :finish
+)
+
+call everythingok.bat
 
 :finish
 echo Builder has finished

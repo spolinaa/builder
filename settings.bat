@@ -21,5 +21,3 @@ set RECEIVER=sokolova.polina@mail.ru
 set SERVER=smtp.mail.ru
 set USER=mailsend11
 set PASSWORD=sendemail20
-
-

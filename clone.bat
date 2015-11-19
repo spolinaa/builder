@@ -1,5 +1,3 @@
-@echo off
-
 if "%RUN%"=="" goto :EOF
 
 if exist intersection (

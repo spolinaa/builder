@@ -1,5 +1,3 @@
-@echo off
-
 if "%RUN%"=="" goto :EOF
 
 set EMAILREPORT=Failed to build the project
